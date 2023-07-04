@@ -71,7 +71,7 @@ class _WelcomeState extends State<Welcome> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Text(
-                      "NoteIt",
+                      "MAMS",
                       textDirection: TextDirection.ltr,
                       style: NotesTheme.appText(
                           letterSpacing: -4,
@@ -79,7 +79,7 @@ class _WelcomeState extends State<Welcome> {
                           weight: FontWeight.w900,
                           color: NotesTheme.highlightColor),
                     ),
-                    Icon(CupertinoIcons.pencil_outline,
+                    Icon(CupertinoIcons.bus,
                         size: width / 7, color: NotesTheme.whiteColor)
                   ],
                 ),

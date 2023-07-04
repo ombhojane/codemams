@@ -74,7 +74,7 @@ class _LoginState extends State<Login> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Text(
-                      "NoteIt",
+                      "MAMS",
                       textDirection: TextDirection.ltr,
                       style: NotesTheme.appText(
                           letterSpacing: -4,
@@ -82,8 +82,8 @@ class _LoginState extends State<Login> {
                           weight: FontWeight.w900,
                           color: NotesTheme.highlightColor),
                     ),
-                    Icon(CupertinoIcons.pencil_outline,
-                        size: width / 7, color: NotesTheme.whiteColor)
+                    Icon(CupertinoIcons.bus,
+                        size: width / 6, color: NotesTheme.whiteColor)
                   ],
                 ),
               ),
@@ -100,7 +100,7 @@ class _LoginState extends State<Login> {
                 alignment: Alignment.centerLeft,
                 margin: const EdgeInsets.only(bottom: 30),
                 child: Text(
-                  "Organize your thoughts and ideas",
+                  """Reserve your seat now!""",
                   style: NotesTheme.appText(
                       size: width / 22,
                       weight: FontWeight.normal,
