@@ -44,9 +44,9 @@ class _NotesState extends State<Notes> {
         child: Column(
           children: [
             Container(
-              alignment: Alignment.centerLeft,
+              alignment: Alignment.center,
               child: Text(
-                "My Notes",
+                "MAMS",
                 style: NotesTheme.appText(
                     size: width / 8,
                     weight: FontWeight.bold,

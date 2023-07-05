@@ -3,9 +3,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:notes_app/authentication/service.dart';
-import 'package:notes_app/notes/notes.dart';
+// import 'package:notes_app/notes/notes.dart';
 import 'package:notes_app/style/notestheme.dart';
 import 'package:notes_app/register/welcome.dart';
+
+import '../notes/notes1.dart';
 
 
 class Login extends StatefulWidget {
@@ -187,7 +189,7 @@ class _LoginState extends State<Login> {
                                     context: context)
                                 ? Navigator.pushReplacement(context,
                                     MaterialPageRoute(builder: (_) {
-                                    return const Notes();
+                                    return const Notes1();
                                   }))
                                 : ScaffoldMessenger.of(context).showSnackBar(
                                     const SnackBar(
@@ -242,7 +244,7 @@ class _LoginState extends State<Login> {
                           await Authentication.signInWithGoogle()
                               ? Navigator.pushReplacement(context,
                                   MaterialPageRoute(builder: (_) {
-                                  return const Notes();
+                                  return const Notes1();
                                 }))
                               : ScaffoldMessenger.of(context).showSnackBar(
                                   const SnackBar(
